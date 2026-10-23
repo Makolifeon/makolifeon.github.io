@@ -17,4 +17,4 @@
 
 /* Keep the consultation area and office location together. */
 .hero-copy .hero-area{margin-bottom:4px}
-.hero-copy .hero-location{margin-top:0;line-height:1.5}
+.hero-copy .hero-location{margin-top:0;margin-bottom:24px;line-height:1.5}
