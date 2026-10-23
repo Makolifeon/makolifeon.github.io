@@ -14,3 +14,7 @@
 /* Compact fee explanations and pending portrait */
 .fee-detail{margin:16px 0;border:1px solid #c7dfe9;border-radius:8px;background:#fff;overflow:hidden}.fee-detail>summary{min-height:56px;padding:16px 20px;background:#eef7fb;color:#294d5d;font-size:16px;line-height:1.6}.fee-detail-body{padding:8px 20px 18px}.fee-detail-body ul{padding-left:1.5em}.fee-detail summary>span{flex-shrink:0}.profile-introduction.profile-compact{grid-template-columns:160px minmax(0,1fr);gap:40px;align-items:start}.profile-compact .portrait-placeholder{min-height:160px;width:160px;max-width:100%}.profile-compact .portrait-placeholder>span{font-size:42px}.profile-compact .portrait-placeholder p{font-size:12px;margin:8px 0}@media(max-width:760px){.profile-introduction.profile-compact{grid-template-columns:1fr;gap:22px}.profile-compact .portrait-placeholder{justify-self:start;min-height:110px;width:140px}.profile-compact .portrait-placeholder>span{font-size:30px}.fee-detail>summary{padding:14px;font-size:15px}.fee-detail-body{padding:6px 14px 14px}}
 @media print{.fee-detail:not([open])>.fee-detail-body{display:block!important}}
+
+/* Keep the consultation area and office location together. */
+.hero-copy .hero-area{margin-bottom:4px}
+.hero-copy .hero-location{margin-top:0;line-height:1.5}
