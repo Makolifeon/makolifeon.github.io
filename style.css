@@ -18,3 +18,7 @@
 /* Keep the consultation area and office location together. */
 .hero-copy .hero-area{margin-bottom:4px}
 .hero-copy .hero-location{margin-top:0;margin-bottom:24px;line-height:1.5}
+
+/* Fit the embedded inquiry form without a long empty tail. Keep internal scrolling available on small screens and validation. */
+.google-inquiry-frame{height:2500px}
+@media(max-width:600px){.google-inquiry-frame{height:2900px}}
